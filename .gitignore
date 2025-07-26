@@ -533,6 +533,10 @@ MigrationBackup/
 *.tar.gz
 *.rar
 
+### Generated OpenAPI Sources ###
+src/main/java/com/arc_connects/api/*/
+!src/main/java/com/arc_connects/api/*/*Controller.java
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
